@@ -11,31 +11,31 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 space-x-reverse">
+          <Link href="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold text-primary-700">
-              المحامي أحمد
+              Wabel Adnan Alzaeem
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8 space-x-reverse">
+          <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-gray-700 hover:text-primary-600 font-semibold transition">
-              الرئيسية
+              Home
             </Link>
             <Link href="/about" className="text-gray-700 hover:text-primary-600 font-semibold transition">
-              من أنا
+              About
             </Link>
             <Link href="/services" className="text-gray-700 hover:text-primary-600 font-semibold transition">
-              الخدمات
+              Services
             </Link>
             <Link href="/contact" className="text-gray-700 hover:text-primary-600 font-semibold transition">
-              اتصل بنا
+              Contact
             </Link>
             <Link
               href="/login"
               className="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition"
             >
-              تسجيل الدخول
+              Login
             </Link>
           </div>
 
@@ -79,35 +79,35 @@ export default function Navbar() {
               className="block px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-600 font-semibold"
               onClick={() => setIsMenuOpen(false)}
             >
-              الرئيسية
+              Home
             </Link>
             <Link
               href="/about"
               className="block px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-600 font-semibold"
               onClick={() => setIsMenuOpen(false)}
             >
-              من أنا
+              About
             </Link>
             <Link
               href="/services"
               className="block px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-600 font-semibold"
               onClick={() => setIsMenuOpen(false)}
             >
-              الخدمات
+              Services
             </Link>
             <Link
               href="/contact"
               className="block px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-600 font-semibold"
               onClick={() => setIsMenuOpen(false)}
             >
-              اتصل بنا
+              Contact
             </Link>
             <Link
               href="/login"
               className="block px-3 py-2 rounded-md bg-primary-600 text-white hover:bg-primary-700 font-semibold text-center"
               onClick={() => setIsMenuOpen(false)}
             >
-              تسجيل الدخول
+              Login
             </Link>
           </div>
         </div>

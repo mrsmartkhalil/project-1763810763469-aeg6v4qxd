@@ -11,60 +11,62 @@ const CONTACT_KEY = 'cms_contact'
 const defaultServices: Service[] = [
   {
     id: '1',
-    title: 'القضايا المدنية',
-    description: 'نقدم خدمات متكاملة في القضايا المدنية بما في ذلك النزاعات العقارية والتعويضات',
-    icon: '⚖️'
+    title: 'Digital Transformation Leadership',
+    description: 'Successfully implemented Odoo ERP, enhanced e-platforms, and streamlined business operations.',
+    icon: '🚀'
   },
   {
     id: '2',
-    title: 'القضايا الجنائية',
-    description: 'تمثيل قانوني في القضايا الجنائية والدفاع عن حقوق المتهمين',
-    icon: '🔨'
+    title: 'Strategic Marketing & Sales Growth',
+    description: 'Developed and executed high-impact digital and traditional campaigns, significantly increasing revenue and market share.',
+    icon: '📈'
   },
   {
     id: '3',
-    title: 'القضايا التجارية',
-    description: 'استشارات ومرافعات في النزاعات التجارية والشركات',
-    icon: '💼'
+    title: 'Team Leadership & Development',
+    description: 'Built, trained, and led multiple sales and marketing teams to achieve ambitious targets.',
+    icon: '👥'
   },
   {
     id: '4',
-    title: 'قضايا الأسرة',
-    description: 'قضايا الأحوال الشخصية والطلاق والحضانة والنفقة',
-    icon: '👨‍👩‍👧‍👦'
+    title: 'Business Optimization',
+    description: 'Improved operational efficiency across diverse departments, from manufacturing to distribution.',
+    icon: '⚙️'
   },
   {
     id: '5',
-    title: 'العقود والاتفاقيات',
-    description: 'صياغة ومراجعة العقود والاتفاقيات التجارية والمدنية',
-    icon: '📝'
+    title: 'Market Analysis & Innovation',
+    description: 'Identified new market opportunities and delivered innovative solutions for competitive advantage.',
+    icon: '💡'
   },
   {
     id: '6',
-    title: 'الاستشارات القانونية',
-    description: 'تقديم استشارات قانونية شاملة في مختلف المجالات',
-    icon: '💡'
+    title: 'Budget & Project Management',
+    description: 'Proven success in cost reduction, budget management, and delivering complex projects on deadline.',
+    icon: '📊'
   }
 ]
 
 const defaultAbout: AboutContent = {
-  bio: 'المحامي أحمد خبير في القانون السعودي مع أكثر من 15 عامًا من الخبرة في تقديم الخدمات القانونية المتميزة. حاصل على درجة الماجستير في القانون من جامعة الملك سعود، ومتخصص في القضايا المدنية والتجارية والجنائية.',
-  experience: 'أكثر من 15 عامًا في ممارسة المحاماة',
-  education: 'ماجستير في القانون - جامعة الملك سعود',
+  bio: 'I am a results-driven Marketing Manager with 14 years of experience in digital transformation, strategic marketing, sales growth, and business development. I have successfully implemented Odoo ERP, enhanced e-platforms, and led high-impact campaigns that significantly increased revenue and market share. My expertise spans team leadership, business optimization, market analysis, and project management across diverse industries in Saudi Arabia.',
+  experience: '14+ Years of Professional Experience',
+  education: 'Information Technology (2004-2008) | Programming (2002-2004)',
   specializations: [
-    'القضايا المدنية والتجارية',
-    'القضايا الجنائية',
-    'قضايا الأسرة والأحوال الشخصية',
-    'العقود والاتفاقيات',
-    'التحكيم والوساطة'
+    'Digital Transformation Leadership',
+    'Strategic Marketing & Sales Growth',
+    'Team Leadership & Development',
+    'Business Optimization',
+    'Market Analysis & Innovation',
+    'Budget & Project Management',
+    'Relationship Building'
   ]
 }
 
 const defaultContact: ContactInfo = {
-  phone: '+966 12 345 6789',
-  email: 'ahmed@lawyer.com',
-  address: 'الرياض، المملكة العربية السعودية',
-  workingHours: 'الأحد - الخميس: 9:00 صباحاً - 5:00 مساءً'
+  phone: '+966 557149990',
+  email: 'engwabel@gmail.com',
+  address: 'Saudia - Riyadh - Exit 9',
+  workingHours: 'Available for consultation - Contact via email or phone'
 }
 
 // Services

@@ -21,9 +21,9 @@ export default function ServicesPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-primary-700 to-primary-600 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">خدماتنا القانونية</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Professional Services</h1>
             <p className="text-xl text-primary-100">
-              نقدم مجموعة شاملة من الخدمات القانونية المتخصصة
+              Comprehensive marketing, digital transformation, and business development expertise
             </p>
           </div>
         </section>
@@ -46,7 +46,7 @@ export default function ServicesPage() {
 
             {services.length === 0 && (
               <div className="text-center py-12">
-                <p className="text-gray-600 text-lg">لا توجد خدمات متاحة حالياً</p>
+                <p className="text-gray-600 text-lg">No services available at the moment</p>
               </div>
             )}
           </div>
@@ -56,16 +56,16 @@ export default function ServicesPage() {
         <section className="bg-primary-50 py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              هل تحتاج إلى مساعدة قانونية؟
+              Need Marketing or Business Development Support?
             </h2>
             <p className="text-xl text-gray-700 mb-8">
-              تواصل معنا اليوم للحصول على استشارة قانونية متخصصة
+              Contact me today to discuss how I can help drive your business growth
             </p>
             <a
               href="/contact"
               className="inline-block bg-primary-600 text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg"
             >
-              تواصل معنا
+              Get in Touch
             </a>
           </div>
         </section>

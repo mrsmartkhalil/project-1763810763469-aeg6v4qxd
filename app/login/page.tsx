@@ -23,10 +23,10 @@ export default function LoginPage() {
       if (success) {
         router.push('/admin')
       } else {
-        setError('اسم المستخدم أو كلمة المرور غير صحيحة')
+        setError('Invalid username or password')
       }
     } catch (err) {
-      setError('حدث خطأ أثناء تسجيل الدخول')
+      setError('An error occurred during login')
     } finally {
       setIsLoading(false)
     }
@@ -38,15 +38,15 @@ export default function LoginPage() {
         {/* Logo/Header */}
         <div className="text-center mb-8">
           <Link href="/" className="text-4xl font-bold text-white">
-            المحامي أحمد
+            Wabel Adnan Alzaeem
           </Link>
-          <p className="text-primary-100 mt-2">لوحة تحكم إدارة المحتوى</p>
+          <p className="text-primary-100 mt-2">Content Management System</p>
         </div>
 
         {/* Login Form */}
         <div className="bg-white rounded-lg shadow-2xl p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            تسجيل الدخول
+            Login
           </h2>
 
           {error && (
@@ -57,15 +57,15 @@ export default function LoginPage() {
 
           {/* Demo credentials info */}
           <div className="bg-blue-50 border border-blue-200 text-blue-700 px-4 py-3 rounded-lg mb-6 text-sm">
-            <p className="font-semibold mb-1">معلومات تجريبية:</p>
-            <p>اسم المستخدم: admin</p>
-            <p>كلمة المرور: admin123</p>
+            <p className="font-semibold mb-1">Demo Credentials:</p>
+            <p>Username: admin</p>
+            <p>Password: admin123</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="username" className="block text-sm font-semibold text-gray-700 mb-2">
-                اسم المستخدم
+                Username
               </label>
               <input
                 id="username"
@@ -73,7 +73,7 @@ export default function LoginPage() {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
-                placeholder="أدخل اسم المستخدم"
+                placeholder="Enter username"
                 required
                 disabled={isLoading}
               />
@@ -81,7 +81,7 @@ export default function LoginPage() {
 
             <div>
               <label htmlFor="password" className="block text-sm font-semibold text-gray-700 mb-2">
-                كلمة المرور
+                Password
               </label>
               <input
                 id="password"
@@ -89,7 +89,7 @@ export default function LoginPage() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
-                placeholder="أدخل كلمة المرور"
+                placeholder="Enter password"
                 required
                 disabled={isLoading}
               />
@@ -100,13 +100,13 @@ export default function LoginPage() {
               disabled={isLoading}
               className="w-full bg-primary-600 text-white py-3 rounded-lg font-semibold hover:bg-primary-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {isLoading ? 'جاري تسجيل الدخول...' : 'تسجيل الدخول'}
+              {isLoading ? 'Logging in...' : 'Login'}
             </button>
           </form>
 
           <div className="mt-6 text-center">
             <Link href="/" className="text-primary-600 hover:text-primary-700 font-semibold">
-              ← العودة إلى الصفحة الرئيسية
+              ← Back to Homepage
             </Link>
           </div>
         </div>
